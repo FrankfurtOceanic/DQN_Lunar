@@ -13,8 +13,9 @@ States are defined by 6 continuous variables and 2 booleans. The continuous vari
 The agent uses the DQN achitecture and an experience replay buffer. Each state transition is stored with the actions, reward, and terminal status. These transitions are then sampled in order to train the neural network. Both the neural network and the replay buffer can be customized. The layers of the nn can be specified while the maximum number of transitions can be set for each instance of the class. Actions are taken in an epsilon greedy fashion. The value of epsilon is annealed over time to a minimum using a multiplicative factor.
 
 ## Results  
-Here we can see the results of using different decay values: 
-<img src="DQN Results.png" width = "500">  
+Here we can see the results of using different decay values:   
+
+<img src="DQN Results.PNG" width = "500">  
 
 
 

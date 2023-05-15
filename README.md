@@ -1,9 +1,9 @@
-# DQN_Lunar  
+# DQN_Lunar: https://youtu.be/bO63fiuMCdM  
 
 My implementation of DQN on openAI's Lunar Lander environment
 Here's a video showing the results and theory behind the algorithm:   
+
 [![DQN](https://img.youtube.com/vi/bO63fiuMCdM/maxresdefault.jpg)](https://youtu.be/bO63fiuMCdM "Lunar Lander")  
-https://youtu.be/bO63fiuMCdM
 
 ## The Environment
 OpenAI's Lunar Lander environment offers a simple scenario to self-landing agents. The goal is to land in between the landing pad (denoted by two flags) by using the thrusters. Achieving this goal results in a large reward. At each time step, the agent can choose to activate one of the three thrusters or do nothing. Each engine activation adds a small penalty as a reward. Crashing reults in a large negative reward.   
